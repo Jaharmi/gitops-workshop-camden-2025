@@ -13,6 +13,7 @@ controls:
   macos_settings:
     custom_settings:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
   macos_updates:
     deadline: "2025-10-31" # Does not support time, noon local device time, but 4.7.7 can override with custom time
     minimum_version: "26.0"
