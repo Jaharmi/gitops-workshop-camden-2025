@@ -25,3 +25,7 @@ org_settings:
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30 # If host has not checked into Fleet in 30 days, it will be removed and no longer impacts license count
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/9c7e565a-bb55-49d2-9c22-d00ed342a0e9
