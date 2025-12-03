@@ -1,5 +1,18 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
+fail_fast: true
+exclude: |
+    (?x)^(
+        README.md|
+        gitops.sh|
+        lib/macos/enrollment-profiles/automatic-enrollment.dep.json|
+        lib/macos/policies/macos-device-health.policies.yml|
+        lib/macos/scripts/collect-fleetd-logs.sh|
+        lib/macos/scripts/install-santa.sh|
+        lib/macos/scripts/macos-password.mobileconfig|
+        lib/macos/scripts/uninstall-santa.sh|
+        teams/workstations-canary.yml
+    )$
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.2.0
