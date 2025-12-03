@@ -20,7 +20,7 @@ agent_options:
 controls:
   scripts:
     - path: ../lib/macos/scripts/set-timezone.script.sh
-    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh # If didn't add script here, would fail because it's not available to the team
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
