@@ -19,6 +19,7 @@ controls:
     minimum_version: "26.0"
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
+    - path: ../lib/windows/scripts/set-wallpaper.ps1
 name: Engineering
 policies:
 queries:
